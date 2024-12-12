@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flowrate", "Flowrate\Flowrate.csproj", "{88E0FE72-E006-4C80-9517-1754B0671343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flowrate", "Flowrate\Flowrate.csproj", "{88E0FE72-E006-4C80-9517-1754B0671343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UVIndex", "UVIndex\UVIndex.csproj", "{11A12EFB-D7D0-40FA-BD50-D89D7AB489B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UVIndex", "UVIndex\UVIndex.csproj", "{11A12EFB-D7D0-40FA-BD50-D89D7AB489B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Definitions", "Definitions\Definitions.csproj", "{EDFC506D-10BC-4177-9B90-51A9F32DF6D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{11A12EFB-D7D0-40FA-BD50-D89D7AB489B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11A12EFB-D7D0-40FA-BD50-D89D7AB489B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11A12EFB-D7D0-40FA-BD50-D89D7AB489B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFC506D-10BC-4177-9B90-51A9F32DF6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFC506D-10BC-4177-9B90-51A9F32DF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFC506D-10BC-4177-9B90-51A9F32DF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFC506D-10BC-4177-9B90-51A9F32DF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
