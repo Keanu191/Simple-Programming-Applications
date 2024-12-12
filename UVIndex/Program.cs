@@ -37,21 +37,27 @@ while (programRunning == true)
         var uvIndex = int.Parse(Console.ReadLine());
 
         // create a switch case statement with the uv index variable as the parameter for the statement
+        // Use Console.ForegroundColor method to set the colour of the text in the console for the specfic cases
         switch (uvIndex)
         {
             case 1 or 2:
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Green: Low");
                 break;
             case 3 or 4 or 5:
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Yellow: Moderate");
                 break;
             case 6 or 7:
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Orange: High");
                 break;
             case 8 or 9 or 10:
+                Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine("Red: Very High");
                 break;
             case >= 11:
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.WriteLine("Purple: Extreme");
                 break;
             case 0:
