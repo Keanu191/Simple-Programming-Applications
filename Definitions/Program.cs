@@ -1,30 +1,9 @@
-﻿/*
- * Integer Option = 0
-Do
-Display Menu Options
-Enter Option
-Switch(Option)
-Case 1: Display Syntax Definition,
-Case 2: Display Syntax Rules.
-Case 3: Display Small Scale App Dev Definition,
-Case 4: Display Document Design Definition,
-Case 5: Display Coding Techniques Definition,
-Case 6: Display Coding Standards Definition
-Case 7: Quit
-Default: Display error
-While (option not equal to 7)
-
-
-
-            Console.WriteLine("Select a definition/option from the following:" +
-           "\n 1 - Syntax" +
-           "\n 2 - Syntax Rules" +
-           "\n 3 - Small Scale App Dev" +
-           "\n 4 - Document Design Specification" +
-           "\n 5 - Coding Techniques" +
-           "\n 6 - Coding Standards" +
-           "\n 7 - Exit Application");
- */
+﻿/* This was created by Keanu Farro: 12/12/2024
+ * Program name: Definitions
+ * This application checks the value of the integer typed into the console
+ * and determines what definition to print out to the user from a switch case statement depending
+ * on the option from 1 to 6, the 7th option exits the do while loop allowing the user to exit the app, 
+*/
 using System;
 
 try
