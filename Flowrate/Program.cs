@@ -30,22 +30,24 @@ if (programInput != null)
 // so as we can see we can just do while programRunning is set to true which assumes that the enter button has been clicked then do the functions
 while (programRunning == true)
 {
-    Console.WriteLine("Enter flowrate: ");
-
-    // declare flowrate as an integer
-    var flowrateInput = Console.ReadLine();
-
-    // we will put the if/else statements in a try catch block as if we get exceptions from the users fault for entering non int values
-    // we can just print out the exceptions and move on rather than having to open the app again!
+    
     try
     {
+        Console.WriteLine("Enter flowrate: ");
+
+        // declare flowrate as an integer
+        int flowrateInput = int.Parse(Console.ReadLine());
+
+        // we will put the if/else statements in a try catch block as if we get exceptions from the users fault for entering non int values
+        // we can just print out the exceptions and move on rather than having to open the app again!
+
         // if the flowRate is less than 75 output message that its low alongside the current flowrate
-        if (int.Parse(flowrateInput) < 75)
+        if (flowrateInput < 75)
         {
             Console.WriteLine("Warning Flow Rate Low, current Flow Rate: " + flowrateInput);
         }
         // else if the flow rate is more than 120 output message that its high alongside the current flowrate
-        else if (int.Parse(flowrateInput) > 120)
+        else if (flowrateInput > 120)
         {
             Console.WriteLine("Warning Flow Rate High, current Flow Rate: " + flowrateInput);
         }

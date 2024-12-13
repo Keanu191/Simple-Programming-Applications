@@ -32,9 +32,9 @@ while (programRunning == true)
         // output message to let the user know to input a UV index into the console
         Console.Write("Enter a UV Index: ");
 
-        // declare UV index variable as a var then parse whatever is entered into the console as an integer,
+        // declare UV index variable as a int then parse whatever is entered into the console as an integer,
         // so according to the psuedocode, reading the UVIndex from the keyboard
-        var uvIndex = int.Parse(Console.ReadLine());
+        int uvIndex = int.Parse(Console.ReadLine());
 
         // create a switch case statement with the uv index variable as the parameter for the statement
         // Use Console.ForegroundColor method to set the colour of the text in the console for the specfic cases
